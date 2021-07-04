@@ -66,11 +66,24 @@ st.title("Bird Species 🦜🔍")
 st.header("Identify your bird species!")
 st.write(
     "To know more about this app, visit [**GitHub**](https://github.com/hemanth-007/Bird-Species-Identification)")
-model = tf.keras.models.load_model("./MobileNetmodel.hdf5")
+
+model = tf.keras.models.load_model(os.path.join("Models", "EfficientNet.hdf5"))
+
+option = st.selectbox("Select an Image Classification Model",
+                      ("EfficientNet", "ResNet", "InceptionNet", "MobileNet"))
+
+if option:
+    if option[0] == 'R':
+        model = tf.keras.models.load_model("ResNet50model.hdf5")
+    elif option[0] == 'I':
+        model = tf.keras.models.load_model("Inceptionmodel.hdf5")
+    elif option[0] == 'M':
+        model = tf.keras.models.load_model("MobileNetmodel.hdf5")
+    elif option[0] == 'E':
+        model = tf.keras.models.load_model("EfficientNet.hdf5")
 
 file = st.file_uploader(label="Upload an image of bird.",
                         type=["jpg", "jpeg", "png"])
-
 
 if not file:
     st.warning("Please upload an image")
