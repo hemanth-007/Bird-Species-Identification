@@ -16,7 +16,7 @@ It is based upon pre-trained Image Classification Models that comes with Keras a
 >**Model :** **`MobileNetV2`**
 >**Accuracy :** **`95.13%`**
 
-### To view the Deployed app, **Click here**
+### To view the Deployed app, [**Click here**](https://birds-species-identification.herokuapp.com/)
 
 > The app may take a couple of seconds to load for the first time, but it works perfectly fine.
 
