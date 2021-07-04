@@ -1,4 +1,4 @@
 pandas
 altair
-tensorflow
+tensorflow-cpu
 streamlit
