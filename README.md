@@ -20,7 +20,7 @@ It is based upon pre-trained Image Classification Models that comes with Keras a
 
 > The app may take a couple of seconds to load for the first time, but it works perfectly fine.
 
-![Screenshot](https://github.com/hemanth-007/Bird-Species-Identification/blob/main/Screenshot.png)
+![Screenshot](https://github.com/hemanth-007/Bird-Species-Identification/blob/main/app_home.png)
 
 
 ## Breaking down the repo
