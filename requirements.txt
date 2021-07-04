@@ -1,8 +1,9 @@
 scikit-learn
 matplotlib
+numpy==1.19.5
+pandas
 datetime
 altair
 tensorflow
 streamlit
-pandas
-numpy==1.19.5
+
