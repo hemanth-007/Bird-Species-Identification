@@ -67,7 +67,7 @@ st.header("Identify your bird species!")
 st.write(
     "To know more about this app, visit [**GitHub**](https://github.com/hemanth-007/Bird-Species-Identification)")
 
-model = tf.keras.models.load_model("EfficientNetmodel.hdf5")
+model = tf.keras.models.load_model("EfficientNetModel.hdf5")
 
 file = st.file_uploader(label="Upload an image of bird.",
                         type=["jpg", "jpeg", "png"])
