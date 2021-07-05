@@ -29,5 +29,5 @@ It is based upon pre-trained Image Classification Models that comes with Keras a
 * `app.py`  : Contains web app code built using [**streamlit**](https://streamlit.io/) api
 * `utils.py`  : Some of used fuctions in  `app.py`
 * `transfer_learning_model_training.ipynb`  : Jupyter Notebook used to train and evaluate Models
-* `model/`  : Contains all the models in *.hfd5* format
+* `Models`  : Contains all the models in *.hfd5* format
 * `requirements.txt`  : List of required dependencies
